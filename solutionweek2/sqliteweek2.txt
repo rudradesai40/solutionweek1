@@ -1,0 +1,23 @@
+1.CREATE TABLE STUD
+ create table stud(id int primary key,name char[30]);
+ insert into stud values(1,"om");
+ insert into stud values(2,"sai");
+ insert into stud values(3,"ram");
+ insert into stud values(4,"hanuman"),(5,"shiv"),(6,"sita"),(7,"ganesh"),(8,"dev"),(9,"parvati"),(10,"krishna");
+ 
+ .mode table
+ select * from stud;
+ +----+---------+
+ | id |  name   |
+ +----+---------+
+ | 1  | om      |
+ | 2  | sai     |
+ | 3  | ram     |
+ | 4  | hanuman |
+ | 5  | shiv    |
+ | 6  | sita    |
+ | 7  | ganesh  |
+ | 8  | dev     |
+ | 9  | parvati |
+ | 10 | krishna |
+ +----+---------+
